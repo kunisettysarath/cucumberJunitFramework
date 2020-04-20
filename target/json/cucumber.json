@@ -1,0 +1,45 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "just chceking in",
+        "description": "",
+        "id": "this-is-a-sample-test-case;just-chceking-in",
+        "after": [
+          {
+            "result": {
+              "duration": 3579200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MasterHooks.commonAfter()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 145451800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I want to open the crm website",
+            "match": {
+              "location": "testStep.openWebSite()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "This is a sample test case",
+    "description": "",
+    "id": "this-is-a-sample-test-case",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/FIrstFeatureFile.feature"
+  }
+]
